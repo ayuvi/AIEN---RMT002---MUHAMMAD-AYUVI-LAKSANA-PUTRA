@@ -8,3 +8,20 @@ data/raw/*
 !data/raw/.gitkeep
 data/generated/*
 *.pyc
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Local data and generated files
+*.log
